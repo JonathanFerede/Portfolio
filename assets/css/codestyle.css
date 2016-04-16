@@ -1,0 +1,42 @@
+code {
+        font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+        font-size: 95%;
+        line-height: 140%;
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -o-pre-wrap;
+        background: #faf8f0;
+    }
+    
+    #content code {
+        display: block;
+        padding: 0.5em 1em;
+        border: 1px solid #bebab0;
+    }
+
+
+/*spine*/
+#content_wrapper{
+    border:1px solid black;
+    position: relative;
+    width: 100%;
+}
+
+
+#content_wrapper:after {
+  content: "";
+  display: block;
+  padding-bottom: 60%;
+}
+
+#content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#content object{
+    width:100%;
+    height: 100%;
+}
